@@ -31,7 +31,7 @@ const App = () => {
 
   const updateTodo = () => {
     const newtodoList = [...todoList];
-    newtodo[editTodo.index] = changeTodo;
+    newtodoList[editTodo.index] = changeTodo;
     setTodoList(newtodoList);
     setEdit(false);
   };
